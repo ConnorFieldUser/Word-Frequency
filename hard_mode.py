@@ -35,5 +35,5 @@ final_list_20 = reversed(final_list_20)
 count = 0
 
 for word, number in final_list_20:
-    count += 0
-    print('{}. '.format(count) + word + ': ' + str(number))
+    new_num = (number/50)
+    print(word + ': ' + str(number) + '#' * new_num)
