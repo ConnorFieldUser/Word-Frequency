@@ -1,5 +1,5 @@
 """
-WSGI config for numberguesser_project project.
+WSGI config for wordfrequency_django project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault("DJANGO_SETTINGS_MODULE", "numberguesser_project.settings")
+os.environ.setdefault("DJANGO_SETTINGS_MODULE", "wordfrequency_django.settings")
 
 application = get_wsgi_application()
