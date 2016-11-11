@@ -43,6 +43,10 @@ final_list_20 = reversed(final_list_20)
 
 count = 0
 
+# for word, number in final_list_20:
+#     new_num = (number/50)
+#     print(word + ': ' + '#' * new_num)
+
 for word, number in final_list_20:
-    new_num = (number/50)
-    print(word + ': ' + '#' * new_num)
+    print(word)
+    print(number)
