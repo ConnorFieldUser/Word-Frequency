@@ -1,12 +1,12 @@
 from django.shortcuts import render
 
-from django.views.generic import TemplateView, DetailView
+from django.views.generic import DetailView, ListView
 from app.models import SherlockBook
 # Create your views here.
 
 
-class IndexView(TemplateView):
-    template_name = 'index.html'
+class IndexView(ListView):
+    model = SherlockBook
 
 
 class SherlockBookDetailView(DetailView):

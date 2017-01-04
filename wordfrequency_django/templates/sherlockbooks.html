@@ -5,9 +5,9 @@
     <title>SherlockBook</title>
   </head>
   <body>
-    {% for book in SherlockBook_set %}
+    {% for book in object_list %}
     {{ book }}
-      <a href="{% url 'sherlockbook_detail_view' object.id %}">Sherlock Holmes</a>
     {% endfor %}
+
 </body>
 </html>
